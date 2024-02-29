@@ -13,7 +13,7 @@ export const buildWebpackConfig = (options: BuildOptions) => {
     devtool: 'inline-source-map',
     output: {
       path: path.resolve(options.paths.output),
-      filename: '[name].[hash].js',
+      filename: '[name].[fullhash].js',
       clean: true
     },
     module: {

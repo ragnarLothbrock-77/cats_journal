@@ -1,6 +1,7 @@
 {
   "name": "basic-webpack-set",
   "version": "1.0.0",
+  "homepage": "https://github.com/ragnarLothbrock-77.github.io/cats_journal",
   "private": true,
   "scripts": {
     "build:dev": "webpack --env mode=development",

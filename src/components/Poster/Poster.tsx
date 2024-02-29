@@ -8,6 +8,7 @@ import { useAppDispatch } from '@/store/hooks/redux.hooks';
 import { modalActions } from '@/store/slices/modalSlice/modal.slice';
 import { galleryActions } from '@/store/slices/gallerySlice/gallery.slice';
 
+
 interface PosterProps {
   className?: string;
   imageSrc: string

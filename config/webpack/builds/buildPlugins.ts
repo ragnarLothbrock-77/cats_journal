@@ -31,11 +31,6 @@ export const buildPlugins = ({ mode, paths, analizer }: BuildOptions) => {
       filename: "css/[name].[contenthash8].css",
       chunkFilename: "css/[name].[contenthash8].css",
     }))
-    plugins.push(new CopyPlugin({
-      patterns: [
-        { from: path.resolve(paths.public, 'images'), to: path.resolve(paths.output, 'images') }
-      ],
-    }))
   }
 
   if (analizer) {

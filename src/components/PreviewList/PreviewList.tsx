@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import classes from './PreviewList.module.scss';
 
-import { useEffect, type PropsWithChildren, SyntheticEvent } from 'react';
+import { type PropsWithChildren } from 'react';
 import { PreviewListItem } from './PreviewListItem/PreviewListItem';
 import { useAppSelector } from '@/store/hooks/redux.hooks';
 import { ICatAPIItem } from '@/store/models/models';

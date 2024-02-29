@@ -1,6 +1,6 @@
 import classes from './Gallery.module.scss';
 import cn from 'classnames';
-import { SyntheticEvent, type PropsWithChildren } from 'react';
+import { type PropsWithChildren } from 'react';
 import ArrowLeft from '../../assets/icons/arrow-left.svg';
 import ArrowRight from '../../assets/icons/arrow-right.svg';
 import { Poster } from '../Poster/Poster';
